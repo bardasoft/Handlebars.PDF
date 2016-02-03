@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandlebarsPDF", "Handlebars.PDF\HandlebarsPDF.csproj", "{535F4C76-3837-49D3-B5D3-1F7C150111D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{79DBC3BA-CC48-4846-BC2A-23CA59DE9541}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{1AE79BFC-A894-4F73-8051-012A8536C28C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "package", "package", "{AD7E54A1-0391-4D46-AD2D-FAAF572C8E8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Handlebars.PDF.Test", "Handlebars.PDF.Test\Handlebars.PDF.Test.csproj", "{1F177003-A9F2-402F-9B09-977893354D60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandlebarsPDF.Package", "Handlebars.PDF.Package\HandlebarsPDF.Package.csproj", "{0451BAEF-DF2E-4B98-8644-94EE9415E389}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{535F4C76-3837-49D3-B5D3-1F7C150111D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{535F4C76-3837-49D3-B5D3-1F7C150111D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{535F4C76-3837-49D3-B5D3-1F7C150111D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{535F4C76-3837-49D3-B5D3-1F7C150111D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F177003-A9F2-402F-9B09-977893354D60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F177003-A9F2-402F-9B09-977893354D60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F177003-A9F2-402F-9B09-977893354D60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F177003-A9F2-402F-9B09-977893354D60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{535F4C76-3837-49D3-B5D3-1F7C150111D0} = {79DBC3BA-CC48-4846-BC2A-23CA59DE9541}
+		{1F177003-A9F2-402F-9B09-977893354D60} = {1AE79BFC-A894-4F73-8051-012A8536C28C}
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389} = {AD7E54A1-0391-4D46-AD2D-FAAF572C8E8B}
+	EndGlobalSection
+EndGlobal
